@@ -2,7 +2,7 @@ from functools import lru_cache
 from pathlib import Path
 from pydantic_settings import BaseSettings,SettingsConfigDict
 
-BASE_DIR= Path(__file__).resolve().parent[2]
+BASE_DIR= Path(__file__).resolve().parents[2]
 
 class Settings(BaseSettings):
     app_name: str = "Enterprise IT Support Agentic Copilot"
@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     tavily_api_key: str = ""
     pinecone_api_key: str = ""
-    pinecone_index_name: str = "ENTERPRISE_RAG"
+    pinecone_index_name: str = "enterprise-rag"
     pinecone_namespace: str = "company-it-kb"
     embedding_model: str = "text-embedding-3-small"
     openai_model: str = "gpt-4o-mini"
