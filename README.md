@@ -1,9 +1,9 @@
-# Enterprise-IT-support-agentic-RAG-
+# IT-SUPPORT_RAG_AGENT
 
 ## 1. Business Problem
 
 ### Customer
-**JayTech**, a fictional 3,000-employee retail company.
+**NOVATECH**, a fictional 3,000-employee retail company.
 
 ### Problem
 The internal IT team maintains many documents: VPN instructions, password rules, MFA policy, software installation rules, laptop troubleshooting guides, and service-desk runbooks.
